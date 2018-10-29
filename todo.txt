@@ -1,0 +1,13 @@
+1) Create page to add single Y/N tests
+- Row Name
+2) Generate table
+- For each table, calculate NumTests = 2^rows
+- For each row, result = Y, calculate LoopCount = NumTests/2^row, For i = 1 to LoopCount set cell = Y, 
+     When LoopCount > i then result = N and LoopCount = 1, do until NumTests
+3) Render Tab in CSV
+4) Add multivaritate test
+5) Add impossible decision
+6) Add outcomes to test results on bottom
+7) Add user story property
+8) Add CSV tab
+9) Add XML Tab
